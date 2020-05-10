@@ -175,9 +175,6 @@ td {
     .download {
         opacity: 1;
     }
-    body {
-        background-color: black;
-    }
     .verified {
         background-color: white;
     }
