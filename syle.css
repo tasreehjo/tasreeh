@@ -102,7 +102,6 @@ td {
     width: 1178px;
     height: 535px;
     margin-top: 100px;
-    background-image: url("images/verified.png");
     background-size: cover;
     margin-bottom: 50px;
     text-align: center;
@@ -112,7 +111,15 @@ td {
     display: inline-block;
     float: none;
     margin-top: 356px;
-    opacity: 0;
+    background-color:#CC0000 ;
+    color: #FFFEFE;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 36px;
+    width: 135px;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: 50;
 }
 .the-footer {
     margin: auto;
@@ -153,4 +160,25 @@ td {
     width: 143px;
     height: 26px;
     margin: auto;
+}
+@media (min-width: 601px)
+{
+    .verified {
+        background-image: url("images/verified.png");
+    }
+
+    .download {
+        opacity: 0;
+    }
+}
+@media (max-width: 600px) {
+    .download {
+        opacity: 1;
+    }
+    body {
+        background-color: black;
+    }
+    .verified {
+        background-color: white;
+    }
 }
